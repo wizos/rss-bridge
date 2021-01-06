@@ -12,7 +12,7 @@
  */
 
 /** Path to the root folder of RSS-Bridge (where index.php is located) */
-define('PATH_ROOT', __DIR__ . '/../');
+define('PATH_ROOT', dirname(dirname(__FILE__)));
 
 /** Path to the core library */
 define('PATH_LIB', PATH_ROOT . 'lib/');
